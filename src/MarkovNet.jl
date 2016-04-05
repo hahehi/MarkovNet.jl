@@ -1,6 +1,6 @@
 module MarkovNet
 
-	using crfbase
-	using inference
+	include("crfbase.jl")
+	include("beliefpropagation.jl")
 
 end
